@@ -11,9 +11,10 @@
 //     Check for form validation if an input is left empty
 
 describe ('User Onboarding App', ()=>{
-    beforeEach(()=>{
-        cy.visit('http://localhost:1234');
-    })
+    // beforeEach(()=>{
+    //     cy.visit('http://localhost:1234');
+    // })
+    //THIS IS BORKED BECAUSE OUR SERVER IS BORKED!
 
     //getten to cut down on typing later!
     const nameInput = () => cy.get("input[name=name]");
